@@ -5,44 +5,9 @@
 ## make
 ##
 
-SRC = main.c	\
-	src/my_exec.c	\
-	src/shell_loop.c	\
-	src/check_command.c	\
-	src/verify_path.c	\
-	src/search_env.c	\
-	src/replace_env.c	\
-	src/my_free.c	\
-	src/create_new_var.c	\
-	src/word_array/my_str_to_word_array.c	\
-	src/word_array/my_word_len.c	\
-	src/word_array/find_array_len.c	\
-	src/word_array/array_cpy.c	\
-	src/word_array/array_append.c	\
-	src/word_array/free_array.c	\
-	src/word_array/array_supelem.c	\
-	src/word_array/array_display.c	\
-	src/str/my_putchar.c	\
-	src/str/my_putstr.c	\
-	src/str/my_put_nbr.c	\
-	src/str/error/my_puterror.c	\
-	src/str/error/my_putstrerror.c	\
-	src/str/error/my_put_nbr_error.c	\
-	src/str/my_strdup.c	\
-	src/str/my_strlen.c	\
-	src/str/my_strcmp.c	\
-	src/str/my_strcat.c	\
-	src/str/my_minus.c	\
-	src/str/my_strcut.c	\
-	src/str/my_minus_last.c	\
-	src/str/my_clear_str.c	\
-	src/str/my_minus_ptr.c	\
-	src/command/my_env.c	\
-	src/command/my_setenv.c	\
-	src/command/my_unsetenv.c	\
-	src/command/my_cd.c
+SRC = src/parse_header.c \
 
-NAME	=	mysh
+NAME	=	asm
 
 OBJ	=	$(SRC:.c=.o)
 
